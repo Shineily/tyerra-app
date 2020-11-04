@@ -1,0 +1,89 @@
+.screen__main-content {
+  display: flex;
+  height: 100vh;
+}
+
+.screen__sidebar {
+  background-color: $primary;
+  color: $dark-grey;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 300px;
+}
+
+.screen__sidebar-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.screen__sidebar-navbar h3 {
+  font-weight: lighter;
+}
+
+.screen__new-entry {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: darken($color: $primary, $amount: 20);
+  }
+}
+
+.screen__entries {
+  flex: 1 1 auto;
+  margin-top: 30px;
+  // overflow-y: scroll;
+}
+
+.screen__entry {
+  background-color: white;
+  border-radius: 4px;
+  color: $dark-grey;
+  display: flex;
+  // justify-content: space-between;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.screen__entry-picture {
+  height: 75px;
+  width: 75px;
+}
+
+.screen__sell-content {
+  display: flex;
+  flex-direction: column;
+  background-color: $light-grey;
+  height: 100%;
+  align-items: center;
+}
+
+.screen__entry-picture-sell {
+  margin-top: 20px;
+  height: 500px;
+  width: 600px;
+  padding: 10px 10px;
+}
+
+.screen__entry-body-sell {
+  padding: 10px 10px;
+  background-color: $primary;
+  width: 600px;
+  color: $dark-grey;
+  // display: flex;
+}
+
+.screen__entry-title-sell {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: $primary;
+}

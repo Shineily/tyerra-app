@@ -1,0 +1,56 @@
+.btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 7px 10px 7px 10px;
+
+  transition: color 0.3s ease;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    color: darken($color: white, $amount: 10);
+  }
+}
+
+.btn__main {
+  margin-top: 5 px;
+}
+
+.btn-costume {
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 25px;
+  border-radius: 4px;
+  color: $primary;
+}
+
+.btn-primary {
+  background-color: $primary;
+
+  &:disabled {
+    background-color: lighten($color: $primary, $amount: 15);
+  }
+
+  &:hover {
+    background-color: darken($color: $primary, $amount: 20);
+  }
+}
+
+.btn-danger {
+  border-radius: 4px;
+  background-color: red;
+  transition: backgroun-color 3s ease;
+
+  &:hover {
+    background-color: darken($color: red, $amount: 10);
+  }
+}
+
+.btn-block {
+  width: 100%;
+}

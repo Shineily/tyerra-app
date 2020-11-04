@@ -1,0 +1,39 @@
+.houses__houses-main {
+  background-color: $light-grey;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: $primary;
+}
+
+.houses__search-input {
+  border: none;
+  color: $dark-grey;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.houses__houses-content {
+  display: flex;
+  padding-left: 10px;
+}
+
+.houses__house-content {
+  background-color: $primary;
+  color: $dark-grey;
+  margin-right: 15px;
+  border-radius: 8px;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+
+  &:hover {
+    background-color: darken($color: $primary, $amount: 5);
+  }
+}
