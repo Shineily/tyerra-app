@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tyerra-app/static/css/main.1c1f1133.chunk.css",
+    "main.js": "/tyerra-app/static/js/main.f0ab2595.chunk.js",
+    "main.js.map": "/tyerra-app/static/js/main.f0ab2595.chunk.js.map",
+    "runtime-main.js": "/tyerra-app/static/js/runtime-main.4d2e2b9d.js",
+    "runtime-main.js.map": "/tyerra-app/static/js/runtime-main.4d2e2b9d.js.map",
+    "static/js/2.551db8b5.chunk.js": "/tyerra-app/static/js/2.551db8b5.chunk.js",
+    "static/js/2.551db8b5.chunk.js.map": "/tyerra-app/static/js/2.551db8b5.chunk.js.map",
+    "index.html": "/tyerra-app/index.html",
+    "static/css/main.1c1f1133.chunk.css.map": "/tyerra-app/static/css/main.1c1f1133.chunk.css.map",
+    "static/js/2.551db8b5.chunk.js.LICENSE.txt": "/tyerra-app/static/js/2.551db8b5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d2e2b9d.js",
+    "static/js/2.551db8b5.chunk.js",
+    "static/css/main.1c1f1133.chunk.css",
+    "static/js/main.f0ab2595.chunk.js"
+  ]
+}
